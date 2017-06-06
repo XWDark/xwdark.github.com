@@ -1,0 +1,67 @@
+html,body{
+    width: 100%;
+    text-align:left;
+    
+}
+body{
+    background-color:crimson ;
+      padding: 0px;
+    margin: 0px;  
+    position: relative;
+}
+nav{
+    position: relative;
+}
+.borr{
+   
+    
+    
+     top:50%;
+    left: 50%;
+    
+     background-image: url(529c18fc66151c9509dc50d77fc5ec13.jpg);
+   /* 自适应图片宽高*/
+      background-repeat:no-repeat; background-size:100% 100%;
+    background-size:100% 100%;
+   /* 自适应图片宽高*/
+
+    
+    position: absolute; 
+  
+    transform: translate(-50%, -50%);    /* 50%为自身尺寸的一半 */
+    width: 200px;
+    height: 200px;
+    /*
+    border-style: solid ;
+    border-width: 6px 5px 3px 5px;
+    */
+    border: 1px solid #fff;
+    border-radius: 6%;
+        margin-bottom: 20px;
+    
+}
+
+a{
+    width: 100px;
+    height: 100px;
+    background-image:url(465e623a7d58050460e7cd874fe5a4c0.jpg);
+    
+    
+    background-repeat:no-repeat; background-size:100% 100%;
+    background-size:100% 100%;
+    
+    
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    
+    white-space:nowrap; 
+text-overflow:ellipsis; 
+-o-text-overflow:ellipsis; 
+overflow: hidden;
+}
